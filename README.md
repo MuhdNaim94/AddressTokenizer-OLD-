@@ -1,19 +1,19 @@
 # MUHAMMAD NAIM BIN ABD RAHIM
 #### _Address Tokenizer with JAVA_
 
-# Run console program with .bat 
+# 1) Run console program with .bat 
 
 - Download file and put inside new folder
-- Just click AddressTokenizer.bat to run the program
+- Just click AddressTokenizer.bat to run the program via cmd
 
-# Run java with Visual Studio Code
+# 2) Run java with Visual Studio Code
 
 - Go to https://code.visualstudio.com/docs/java/java-tutorial and download Coding Pack for Java
 - This Coding Pack includes Visual Studio Code, the Java Development Kit (JDK), and essential Java extensions. 
 - If existing VS user, go to extension and search for Extension Pack for Java 
 - Finish installation and launch Visual Studio Code
 
-## Test the code
+## i -Test the code
 
 - Download file and create a new folder
 - Extract downloaded file to a new folder
