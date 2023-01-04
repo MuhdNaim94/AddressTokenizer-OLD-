@@ -1,3 +1,5 @@
 @echo off
+cls
+:start
 java -cp . AddressTokenizer
-pause
+goto start
