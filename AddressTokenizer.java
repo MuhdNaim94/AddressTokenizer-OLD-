@@ -24,10 +24,10 @@ public class AddressTokenizer {
       String street = getMatch(address, STREET_REGEX);
       String city = getMatch(address, CITY_REGEX);
       String state = getMatch(address, STATE_REGEX);
-      String nonMatchingParts = address
+      String section = address
           .replaceAll("(" + APT_NUM_REGEX + ")|(" + POSTCODE_REGEX + ")|(" + STREET_REGEX + ")|("
               + CITY_REGEX + ")|(" + STATE_REGEX + ")|([\\s,]*No\\.\\s\\d+)", "");
-      nonMatchingParts = nonMatchingParts.replaceAll("[\\s,]+", " ").trim();
+      section = section.replaceAll("[\\s,]+", " ").trim();
 
       // Print out the extracted parts of the address
       System.out.println("Apartment: " + aptNum);
@@ -35,13 +35,13 @@ public class AddressTokenizer {
       System.out.println("Street: " + street);
       System.out.println("City: " + city);
       System.out.println("State: " + state);
-      System.out.println("Section: " + nonMatchingParts);
+      System.out.println("Section: " + section);
     } finally {
       scanner.close();
     }
   }
 
-  // Compile to get section
+  // String matcher
   private static String getMatch(String str, String regex) {
     Pattern pattern = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
     Matcher matcher = pattern.matcher(str);
