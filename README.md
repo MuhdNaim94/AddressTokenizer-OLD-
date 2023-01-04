@@ -1,7 +1,10 @@
 # MUHAMMAD NAIM BIN ABD RAHIM
 #### _Address Tokenizer with JAVA_
 
+# Run console program with .bat 
 
+- Download file and put inside new folder
+- Just click AddressTokenizer.bat to run the program
 
 # Run java with Visual Studio Code
 
@@ -10,7 +13,7 @@
 - If existing VS user, go to extension and search for Extension Pack for Java 
 - Finish installation and launch Visual Studio Code
 
-# Test the code
+## Test the code
 
 - Download file and create a new folder
 - Extract downloaded file to a new folder
@@ -18,3 +21,6 @@
 - Double click AddressTokenizer.java and go to Run > start debugging or (F5)
 - Insert an address to test the tokenizer
 - To re-test the program need to re-run the debugging by pressing F5
+
+
+
